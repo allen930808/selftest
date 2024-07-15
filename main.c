@@ -8,6 +8,7 @@ int main() {
     printf("Enter two first and second operand: ");
     scanf("%lf %lf", &a, &b);
 
+
     while(1) {
         if(i > 0) {
             printf("Enter new oprand: ");

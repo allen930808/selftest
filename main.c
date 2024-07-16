@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+
 int main() {
     static double a, b;
     char count;
@@ -8,12 +10,12 @@ int main() {
     printf("Enter two first and second operand: ");
     scanf("%lf %lf", &a, &b);
 
-
     while(1) {
         if(i > 0) {
             printf("Enter new oprand: ");
             scanf("%lf", &b);
         }
+
         printf("Enter an operator (+, -, *, /), "
                "if want to exit press x: ");
         while (getchar() != '\n') {}
